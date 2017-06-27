@@ -5,15 +5,16 @@
 		font-family: Arial;
 	}
 	
-	.container{ padding:5px; }
+	.container{ padding:10px;
+				 }
 	.bio-box{
 		background: white;
 		border: 1px solid #dddddd;
-		margin: 5px;
 		padding: 5px
 		}
 	.pic{
 		padding:5px;
+		margin-right: 10px;
 		}
 
 	h2{color:#4aaaa5;
@@ -27,7 +28,8 @@
 		
 		border: 1px solid #dddddd;
 		background: white;
-		margin: 5px;
+		margin: 20px;
+		padding:10px;
 		
 	}
 
@@ -38,6 +40,7 @@
 		background: white;
 		border:1px solid #dddddd;
 		padding: 10px;	
+		height:600px;
 			}
 
 	.footer{
