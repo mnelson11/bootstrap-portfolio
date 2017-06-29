@@ -10,7 +10,9 @@
 	.bio-box{
 		background: white;
 		border: 1px solid #dddddd;
-		padding: 5px
+		padding: 10px
+		margin:10px;
+		float:left;
 		}
 	.pic{
 		padding:5px;
@@ -20,36 +22,47 @@
 	h2{color:#4aaaa5;
 		padding:10px;
 		border-bottom: 1px solid #dddddd;
-		margin: 5px 20px 5px 20px;
-
+		margin: 20px;
 	}
 
 	.connect-box{
 		
 		border: 1px solid #dddddd;
 		background: white;
-		margin: 20px;
-		padding:10px;
+		margin:20px;
+		padding:20px;
+
 		
+
+
 	}
 
-	.icon{width:75px;}
+	.icon{width:33%;}
 
 	.portfolio-container{
 		
 		background: white;
 		border:1px solid #dddddd;
-		padding: 10px;	
-		height:600px;
-			}
+		margin: 10px 10px 100px 25px;
+		padding:10px;
+		height:auto;
 
-	.footer{
+		
+
+			}
+	
+	footer{
 		background: #666666;
 		text-align: center;
-   		
-   		border-top:7px solid #4aaaa5;
+		height:;
+   		border-top:8px solid #4aaaa5;
    		color:#ffffff;
-   		margin: 60px 0 0 0;
+    	position: fixed;
+    	left: 0;
+    	bottom: 0;
+    	width: 100%;
+}
+   		
 	}
 
 	.text1{text-align: center;
@@ -65,6 +78,8 @@
 		height: 150px;
     	background-repeat: no-repeat;
     	border:10px solid white;
+    	margin:10px;
+    	
     	
     	}
 	.image2{    
@@ -76,6 +91,8 @@
     	height: 150px;
     	background-repeat: no-repeat;
     	border:10px solid white;
+    	margin:10px;
+    	
     	}
 	.image3{    
 		width: 200px;
@@ -86,6 +103,8 @@
     	height: 150px;
     	background-repeat: no-repeat;
     	border:10px solid white;
+    	margin:10px;
+    	
     	}
 	.image4{    
 		width: 200px;
@@ -96,6 +115,8 @@
     	height: 150px;
     	background-repeat: no-repeat;
     	border:10px solid white;
+    	margin:10px;
+    
     	}
 	.image5{    
 		width: 200px;
@@ -106,6 +127,8 @@
     	height: 150px;
     	background-repeat: no-repeat;
     	border:10px solid white;
+    	margin:10px;
+    	
     	}
 	
 	/* Style inputs with type="text", select elements and textareas */
@@ -141,4 +164,12 @@
 	    margin:20px;
 	}
 
+	@media screen and (max-width:993px){
+		.connect-box{clear:left;
+					border:1px solid #dddddd;
+					margin: 10px 10px 10px 25px;
+					padding:10px;
+		}
+	}
 	
+
